@@ -125,14 +125,14 @@ jadx app-debug.apk
 ### Step 3: Analyze Authentication Logic
 1. Navigate to package `com.example.vaultlab.data` and open `SyntheticRepository`.
 2. Inspect the companion object properties:
-   - `ADMIN_USER_BYTES` = `new byte[]{97, 100, 109, 105, 110}` ➔ `"admin"`
+   - `ADMIN_USER_BYTES` = `new byte[]{97, 100, 109, 105, 110}` ➔ `"*****"`
    - `ADMIN_PASS_BYTES` = `new byte[]{86, 97, 117, 108, 116, 65, 100, 109, 105, 110, 50, 48, 50, 53, 83, 101, 99, 114, 101, 116, 33}` ➔ `"VaultAdmin2025Secret!"`
 
 ### Step 4: Validate Credentials in App
 1. Launch **VaultLab** on an emulator or Android device.
 2. Enter the discovered credentials on the Login screen:
-   - **Username:** `admin`
-   - **Password:** `VaultAdmin2025Secret!`
+   - **Username:** `*****`
+   - **Password:** `*****************`
 3. Click **Sign In** and verify challenge completion!
 
 ---
