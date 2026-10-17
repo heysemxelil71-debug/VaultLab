@@ -50,6 +50,8 @@ class SyntheticRepository(context: Context) {
         )
 
         // Challenge M1: Obfuscated Admin Credentials for Static Analysis
+        // NOTE: Byte array representation is intentionally used for Challenge M1 (Hardcoded Credentials).
+        // This is simple encoding/obfuscation for educational reverse engineering (e.g. using JADX), NOT secure encryption.
         private val ADMIN_USER_BYTES = byteArrayOf(97, 100, 109, 105, 110) // "admin"
         private val ADMIN_PASS_BYTES = byteArrayOf(86, 97, 117, 108, 116, 65, 100, 109, 105, 110, 50, 48, 50, 53, 83, 101, 99, 114, 101, 116, 33) // "VaultAdmin2025Secret!"
     }

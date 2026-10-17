@@ -44,7 +44,7 @@ class LoginActivity : AppCompatActivity() {
             AuthResult.SUCCESS_ADMIN -> {
                 tvErrorMessage.visibility = View.GONE
                 Toast.makeText(
-                    this,
+                    applicationContext,
                     getString(R.string.m1_challenge_success),
                     Toast.LENGTH_LONG
                 ).show()
