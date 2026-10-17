@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- VaultLab Palette: Navy, Muted Blue, White -->
+    <color name="navy_primary">#1A365D</color>
+    <color name="navy_dark">#0F172A</color>
+    <color name="navy_surface">#1E293B</color>
+    <color name="blue_accent">#2563EB</color>
+    <color name="blue_light">#EFF6FF</color>
+    <color name="gray_background">#F8FAFC</color>
+    <color name="gray_card">#FFFFFF</color>
+    <color name="gray_stroke">#E2E8F0</color>
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_muted">#94A3B8</color>
+    <color name="green_credit">#10B981</color>
+    <color name="red_debit">#EF4444</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
