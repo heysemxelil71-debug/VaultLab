@@ -39,6 +39,9 @@
     <string name="routing_number">Routing Number</string>
     <string name="branch_code">Branch Code</string>
     <string name="profile_settings">Profile Settings</string>
+    <string name="btn_upload_photo">Upload Profile Photo</string>
+    <string name="upload_success">Image uploaded successfully!</string>
+    <string name="upload_failed">Upload failed: %1$s</string>
 
     <!-- Settings -->
     <string name="settings">Settings</string>
